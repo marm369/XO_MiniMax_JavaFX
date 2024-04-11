@@ -1,0 +1,23 @@
+.bttn {
+    -fx-padding: 10px 20px;
+    -fx-font-size: 16px;
+    -fx-border-width: 0;
+    -fx-border-radius: 8px;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(to bottom, #9078a9, #6600cc);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 5);
+    -fx-transition: background-color 0.3s ease, font-size 0.3s ease;
+}
+
+.bttn:hover {
+    -fx-background-color: linear-gradient(to bottom, #ae77da, #bfade3);
+    -fx-font-size: 18px;
+}
+
+.bttn:pressed {
+    -fx-background-color: linear-gradient(to bottom, #8d6de8, #8399b9);
+}
+
+.bttn:focused {
+    -fx-outline: none;
+}
